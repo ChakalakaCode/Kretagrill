@@ -302,7 +302,22 @@ footer {
 }
 
 footer p {
-    margin: 0;
+    margin: 0 0 1rem 0;
+}
+
+.footer-links {
+    margin-top: 1rem;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ffd700;
 }
 
 @media (max-width: 768px) {
